@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-9</title>
+    <style>
+        #matter {
+            margin-left: 100px;
+        }
+        #but{
+            margin-left: 250px;
+            margin-top: 100px;
+        }
+
+        #mySidenav a {
+            position: absolute;
+            left: -82px;
+            transition: 0.5s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 5px;
+        }
+
+        #mySidenav a:hover {
+            left: 0;
+        }
+
+        #Home {
+            top: 20px;
+            background-color: #04AA6D;
+        }
+
+        #About {
+            top: 80px;
+            background-color: #2196F3;
+        }
+
+        #Services {
+            top: 140px;
+            background-color: #f44336;
+        }
+
+        #contact {
+            top: 200px;
+            background-color: #555
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="mySidenav" >
+        <a href="" id="Home">Home</a>
+        <a href="" id="About">About</a>
+        <a href="" id="Services">Services</a>
+        <a href="" id="contact">Contact</a>
+    </div>
+
+    <div id="matter">
+        <h1>Hoverable Sidenav Buttons</h1>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+    <div id="but">
+        <button onclick="location.href = './Index.html';">Back to Index</button>
+    </div>
+
+
+</body>
+
+</html>
